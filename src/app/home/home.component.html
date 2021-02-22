@@ -1,17 +1,111 @@
 ﻿<div>
-    <h1>Home</h1>
-    <p>{{bodyText}}</p>
-    <button (click)="openModal('custom-modal-1')">Open Modal 1</button>
-    <button (click)="openModal('custom-modal-2')">Open Modal 2</button>
+  <button
+    (click)="
+      openModal('1');
+      openModal('2');
+      openModal('3');
+      openModal('4');
+      openModal('5');
+      openModal('6');
+      openModal('7');
+      openModal('8');
+      openModal('9')
+    "
+  >
+    Open Modal 1
+  </button>
 </div>
 
-<jw-modal id="custom-modal-1">
-    <h1>A Custom Modal!</h1>
-    <p>Home page text: <input type="text" [(ngModel)]="bodyText" /></p>
-    <button (click)="closeModal('custom-modal-1');">Close</button>
+<jw-modal id="1">
+  <h3>A Custom Modal 1!</h3>
+  <button class="close" (click)="closeModal('1')">X</button>
+  <img src="assets/cover_new_rental.jpg" alt="Paris" width="225" height="125" />
 </jw-modal>
 
-<jw-modal id="custom-modal-2">
-    <h1 style="height:1000px">A Tall Custom Modal!</h1>
-    <button (click)="closeModal('custom-modal-2');">Close</button>
+<jw-modal id="2">
+  <h3>A Custom Modal 2!</h3>
+  <button class="close" (click)="closeModal('2')">X</button>
+  <img
+    src="assets/pexels-markus-spiske-1679719.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
+</jw-modal>
+
+<jw-modal id="3">
+  <h3>A Custom Modal 3!</h3>
+  <button class="close" (click)="closeModal('3')">X</button>
+  <img
+    src="assets/pexels-miguel-á-padriñán-745365.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
+</jw-modal>
+
+<jw-modal id="4">
+  <h3>A Custom Modal 4!</h3>
+  <button class="close" (click)="closeModal('4')">X</button>
+  <img
+    src="assets/pexels-miguel-á-padriñán-745365.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
+</jw-modal>
+
+<jw-modal id="5">
+  <h3>A Custom Modal 5!</h3>
+  <button class="close" (click)="closeModal('5')">X</button>
+  <img
+    src="assets/pexels-miguel-á-padriñán-745365.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
+</jw-modal>
+
+<jw-modal id="6">
+  <h3>A Custom Modal 6!</h3>
+  <button class="close" (click)="closeModal('6')">X</button>
+  <img
+    src="assets/pexels-miguel-á-padriñán-745365.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
+</jw-modal>
+
+<jw-modal id="7">
+  <h3>A Custom Modal 7!</h3>
+  <button class="close" (click)="closeModal('7')">X</button>
+  <img
+    src="assets/pexels-miguel-á-padriñán-745365.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
+</jw-modal>
+
+<jw-modal id="8">
+  <h3>A Custom Modal 8!</h3>
+  <button class="close" (click)="closeModal('8')">X</button>
+  <img
+    src="assets/pexels-miguel-á-padriñán-745365.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
+</jw-modal>
+
+<jw-modal id="9">
+  <h3>A Custom Modal 9!</h3>
+  <button class="close" (click)="closeModal('9')">X</button>
+  <img
+    src="assets/pexels-miguel-á-padriñán-745365.jpg"
+    alt="Paris"
+    width="225"
+    height="125"
+  />
 </jw-modal>
